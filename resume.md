@@ -1,7 +1,7 @@
 # 宋铁磊
 ## java工程师
 
-> [evatlsong@gmail.com](mailto:evatlsong@gmail.com)
+> [admin@evatlsong.com](mailto:admin@evatlsong.com)
 > (+86) 186-1055-1854
 
 ------
@@ -22,7 +22,7 @@
 
 ### 期望 
 
-Java工程师 薪资10k
+Java工程师 薪资20k
 
 ------
 
@@ -36,18 +36,14 @@ Java工程师 薪资10k
 	**Technical Environment** Backbone.js, Jasmine.js, Coffeescript, SpringSource, Tomcat.
 
 **海市经纬** *Java工程师* (__2010 ~ 2014__)
-	Designed Backbone.js based application to replace and improve upon existing legacy system.
-	Introduced BDD style testing using Jasmine/Karma into existing application code.
-	Developed modern solutions and features for large Enterprise Java systems.
-	Collaborated with and guided global team members transitioning to client side architecture.
-	**Technical Environment** Backbone.js, Jasmine.js, Coffeescript, SpringSource, Tomcat.
+
+    
 
 **红越科技** *Java工程师* (__2009 to 2010__)
-	Designed and implemented features and improvements for multiple enterprise sized applications.
-	Automated manual report generation for legacy ticketing system to provide reliable team analytics.
-	Provided quality solutions to mission critical production issues in a timely manner.
-	Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.
-	**Technical Environment** Weblogic/Websphere, SpringSource/Wicket, MSSQL/Oracle, JUnit.
+
+    负责公司网站的开发，部署，维护。
+    网站所用技术为struts1 hibernate mysql 
+    在职期间成功完成了网站的开发工作 并稳定运行
 
 ------
 

@@ -6,13 +6,14 @@ then
     cd .deploy_git/
     git add .
     git commit -m 'update'
-    echo "commit"
+    git push -f pages gh-pages
 else
     mkdir -p .deploy_git/
     mv resume.html .deploy_git/
     cd .deploy_git/
     git init
+    git remote add pages git@github.com:evatlsong/resume.git
     git add .
     git commit -m 'update'
-    echo "create && add"
+    git push -f pages gh-pages
 fi

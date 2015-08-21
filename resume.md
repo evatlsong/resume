@@ -31,36 +31,40 @@ Java工程师 薪资20k
 
 ### 经历
 
-**[够旅游][]** *Java工程师* (__2014 ~ 2015__)
+**[够旅游][]** *Java工程师*  (__2014 ~ 2015__)
 	负责网站的开发，部署，维护
-	在职期间首先将1.0网站改为集群部署 保障了网站的正常运行
-	之后参与了2.0网站的开发
-	在2.0网站我规范了项目的流程为
-	首先提交代码到develop分支 jenkins自动发布到测试环境
-  在测试环境测试通过后 合并代码到master分支 jenkins 会自动发布到正式环境
-	*技术环境*： Centos7, Tomcat, Mysql, Jenkins, Maven, Git, Spring, Hibernate, Freemarker, Bootstrap
+	在职期间首先将1.0版网站改为集群部署 保障了网站的正常运行
+	之后参与了2.0版网站的开发
+	在2.0网站我使用Jenkins搭建了持续集成环境 使测试和发布实现了自动化
+	针对查询问题 通过使用solr使性能得到很大提高
+	**技术环境**： Centos7, Tomcat, Mysql, Jenkins, Maven, Git, Spring, Hibernate, Freemarker, Bootstrap
 
-**[海市经纬][]** *Java工程师* (__2010 ~ 2014__)
-    负责公司各个项目的维护，开发工作
+**[海市经纬][]** *Java工程师*  (__2010 ~ 2014__)
+    负责公司多个项目的维护，开发工作
+		在职期间成功完成了多个项目的开发工作
+		包括农业出版社网站(http://www.ccap.com.cn),
+		 国务院参事室网站(http://www.counsellor.gov.cn)
 
-**红越科技** *Java工程师* (__2009 ~ 2010__)
+**[红越科技][]** *Java工程师*  (__2009 ~ 2010__)
     负责公司网站的开发，部署，维护。
     在职期间成功完成了网站的开发工作 并使之稳定运行
-    **技术环境**：Tomcat, windows server ,struts1, hibernate, mysql
+    **技术环境**：Tomcat, Windows Server 2003 ,Struts1, Hibernate, Mysql
 
 ------
 
 ### 项目
 
 * **[够旅游网][够旅游]**
-	Cordova based app(iOS & Android) that leverages a huge amalgamation of public data. Driven by over 30 web spiders, 15 webservices and multiple external databases it provides brand ratings from non-profit organisations by scanning product barcodes.
+  [www.goutrip.com][够旅游]
+	是一家专门为旅行者提供中高端“主题游+深度游”的旅游服务产品提供商
 
 * **[动批网][]**
-	Cordova based app(iOS & Android) that leverages a huge amalgamation of public data. Driven by over 30 web spiders, 15 webservices and multiple external databases it provides brand ratings from non-profit organisations by scanning product barcodes.
+  [www.dongpi.com][动批网]
+	动物园批发市场的线上交易平台
 
-* **中国农业出版社**
-	<a href=http://www.ccap.com.cn class=not-printed>www.ccap.com.cn</a>
-	HTML5 Animated heatmap visualising crimes in the city of Halifax. Built on a customised version Heatmap.js library which enables smooth animation. Won silver in the [Apps4Halifax](http://apps4halifax.ca/) city category.
+* **[中国农业出版社][]**
+  [www.ccap.com.cn][中国农业出版社]
+	是中国农业领域唯一的一家中央级大型综合性出版社
 
 ------
 
@@ -73,3 +77,5 @@ Java工程师 薪资20k
 [够旅游]: http://goutrip.com "够旅游"
 [动批网]: http://dongpi.com "动批网"
 [海市经纬]: http://ehm.com.cn "海市经纬"
+[红越科技]: http://www.redmor.com "红越科技"
+[中国农业出版社]: http://www.ccap.com.cn "中国农业出版社"

@@ -36,9 +36,9 @@ Java工程师 薪资20k
 	在职期间首先将1.0网站改为集群部署 保障了网站的正常运行
 	之后参与了2.0网站的开发
 	在2.0网站我规范了项目的流程为
-	每个人完成工作并执行单元测试无误后提交代码到Git代码库
-	Git通过钩子脚本通知Jenkins执行集成测试 与自动部署
-	**技术环境**： Centos7, Tomcat, Mysql, Jenkins, Maven, Git, Spring, Hibernate, Freemarker, Bootstrap
+	首先提交代码到develop分支 jenkins自动发布到测试环境
+  在测试环境测试通过后 合并代码到master分支 jenkins 会自动发布到正式环境
+	*技术环境*： Centos7, Tomcat, Mysql, Jenkins, Maven, Git, Spring, Hibernate, Freemarker, Bootstrap
 
 **[海市经纬][]** *Java工程师* (__2010 ~ 2014__)
     负责公司各个项目的维护，开发工作

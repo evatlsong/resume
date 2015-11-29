@@ -13,6 +13,11 @@
 .container:after {
   clear: both;
 }
+ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* For IE 6/7 (trigger hasLayout) */
 .container {
@@ -363,8 +368,8 @@ dl em {
   }
   p {
     margin-left: 5px;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 23px;
   }
   p strong, p em {
     font-size: 14px;
@@ -373,7 +378,7 @@ dl em {
   ol li {
     width: 50%;
     margin: 0;
-    font-size: 12px;
+    font-size: 100%;
   }
 }
 

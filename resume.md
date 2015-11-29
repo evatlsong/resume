@@ -9,23 +9,21 @@
 
 ### 技能
 
-1. Java
-2. HTML / CSS / JavaScript
-3. Spring / Hibernate / Mybatis
-4. jQuery / Bootstrap
-5. Freemarker
-6. Git / SVN
-7. Jenkins / Maven
-8. MySQL / Oracle / SqlServer
-9. PHP
-10. C / C++
-
+* Java
+* Spring / Hibernate / Mybatis
+* JSP / Freemarker
+* HTML / CSS / JavaScript
+* jQuery / Bootstrap
+* Grunt / Bower / Yeomean
+* Git / SVN
+* Jenkins / Maven
+* MySQL / Oracle / SqlServer
 
 ------
 
 ### 期望
 
-Java工程师 薪资20k
+Java工程师 薪资15k
 
 ------
 
@@ -41,9 +39,9 @@ Java工程师 薪资20k
 
 **[海市经纬][]** *Java工程师*  (__2010 ~ 2014__)
     负责公司多个项目的维护，开发工作
-		在职期间成功完成了多个项目的开发工作
-		包括农业出版社网站(http://www.ccap.com.cn),
-		 国务院参事室网站(http://www.counsellor.gov.cn)
+	在职期间成功完成了多个项目的开发工作
+	包括 农业出版社网站(http://www.ccap.com.cn),
+    国务院参事室网站(http://www.counsellor.gov.cn)
 
 **[红越科技][]** *Java工程师*  (__2009 ~ 2010__)
     负责公司网站的开发，部署，维护。

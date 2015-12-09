@@ -43,13 +43,27 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 <p>Java工程师 薪资15k</p>
 <hr>
 <h3 id="-">经历</h3>
-<p><strong><a href="http://goutrip.com" title="够旅游">够旅游</a></strong> <em>Java工程师</em>  (<strong>2014 ~ 2015</strong>)<br>    负责网站的开发，部署，维护<br>    在职期间首先将1.0版网站改为集群部署 保障了网站的正常运行<br>    之后参与了2.0版网站的开发<br>    在2.0网站我使用Jenkins搭建了持续集成环境 使测试和发布实现了自动化<br>    针对查询问题 通过使用solr使性能得到很大提高<br>    <strong>技术环境</strong>： Centos7, Tomcat, Mysql, Jenkins, Maven, Git, Spring, Hibernate, Freemarker, Bootstrap</p>
-<p><strong><a href="http://ehm.com.cn" title="海市经纬">海市经纬</a></strong> <em>Java工程师</em>  (<strong>2010 ~ 2014</strong>)<br>    负责公司多个项目的维护，开发工作<br>    在职期间成功完成了多个项目的开发工作<br>    包括 农业出版社网站(<a href="http://www.ccap.com.cn">http://www.ccap.com.cn</a>),<br>    国务院参事室网站(<a href="http://www.counsellor.gov.cn">http://www.counsellor.gov.cn</a>)</p>
+<p><strong><a href="http://goutrip.com" title="够旅游">够旅游</a></strong> <em>Java工程师</em>  (<strong>2014 ~ 2015</strong>)</p>
+<pre><code>负责网站的开发，部署，维护
+在职期间首先将版本管理从svn切换到了Git 项目构建从Ant切换到了Maven
+引入Jenkins搭建了持续集成环境
+
+完善后的工作流程为
+最新的代码存在develop分支上 
+功能完成后合并develop到release分支 触发Jenkins的自动编译并部署到测试环境 
+测试通过后合并release到master分支 并打上版本号触发Jenkins的自动编译并部署到生产环境
+
+在前端引入了grunt, 使文件合并、压缩等过程自动化
+
+之后实现了线路管理 酒店管理等多个功能模块从前端页面到后台代码的开发
+
+**技术环境**： Centos7, Tomcat, Mysql, Jenkins, Maven, Git, Spring, Hibernate, Freemarker, Bootstrap
+</code></pre><p><strong><a href="http://ehm.com.cn" title="海市经纬">海市经纬</a></strong> <em>Java工程师</em>  (<strong>2010 ~ 2014</strong>)<br>    负责公司多个项目的维护，开发工作<br>    在职期间成功完成了多个项目的开发工作<br>    包括<br>    农业出版社网站(<a href="http://www.ccap.com.cn">http://www.ccap.com.cn</a>),<br>    国务院参事室网站(<a href="http://www.counsellor.gov.cn">http://www.counsellor.gov.cn</a>)</p>
 <p><strong><a href="http://www.redmor.com" title="红越科技">红越科技</a></strong> <em>Java工程师</em>  (<strong>2009 ~ 2010</strong>)<br>    负责公司网站的开发，部署，维护。<br>    在职期间成功完成了网站的开发工作 并使之稳定运行<br>    <strong>技术环境</strong>：Tomcat, Windows Server 2003 ,Struts1, Hibernate, Mysql</p>
 <hr>
 <h3 id="-">项目</h3>
 <ul>
-<li><p><strong><a href="http://goutrip.com" title="够旅游">够旅游网</a></strong><br><a href="http://goutrip.com" title="够旅游">www.goutrip.com</a><br>  是一家专门为旅行者提供中高端“主题游+深度游”的旅游服务产品提供商</p>
+<li><p><strong><a href="http://goutrip.com" title="够旅游">够旅游网</a></strong><br><a href="http://goutrip.com" title="够旅游">www.goutrip.com</a><br>  专门为旅行者提供中高端“主题游+深度游”的旅游服务产品</p>
 </li>
 <li><p><strong><a href="http://dongpi.com" title="动批网">动批网</a></strong><br><a href="http://dongpi.com" title="动批网">www.dongpi.com</a><br>  动物园批发市场的线上交易平台</p>
 </li>
